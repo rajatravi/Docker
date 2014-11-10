@@ -1,5 +1,5 @@
 
-ckerfile to build MongoDB container images
+#Dockerfile to build MongoDB container images
 # Based on Ubuntu
 ############################################################
 
