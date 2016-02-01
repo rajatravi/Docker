@@ -5,3 +5,4 @@
 3.) Verify if it ran fine
   - docker inspect <container id> | grep IP
   - curl  <ip of nginx-proxy container>
+4.) Docker file is also updating the default.conf by doing a proxy entry of tomcat, so make sure that you update conf/default.conf with the tomcat container ip
