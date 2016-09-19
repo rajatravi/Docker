@@ -1,0 +1,17 @@
+mysqla:
+  build: /root/shoa/mysql/.
+#  restart: always
+
+mytoma:
+  build: /root/shoa/tomcat/.
+#  restart: always
+
+mytomb:
+  build: /root/shoa/tomcat/.
+#  restart: always
+  
+nginx:
+  build: /root/shoa/nginx/.
+  ports:
+   - "80:80"
+#  restart: always
